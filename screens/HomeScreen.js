@@ -50,7 +50,8 @@ const HomeScreen = () => {
             language: "en",
             components: "country:nz",
           }}
-          placeholder="Where From?"
+          onFail={(error) => console.log(error)}
+          placeholder="Where from?"
           nearbyPlacesAPI="GooglePlacesSearch"
           debounce={400}
         />
