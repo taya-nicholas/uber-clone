@@ -11,7 +11,10 @@ const MapScreen = () => {
   const Stack = createNativeStackNavigator();
   return (
     <SafeAreaView>
-      <View style={tw`h-2/3`}>
+      <View style={tw`h-1/2`}>
+        <Map />
+      </View>
+      <View style={tw`h-1/2`}>
         <Stack.Navigator>
           <Stack.Screen
             name="NavigateCard"
@@ -28,9 +31,6 @@ const MapScreen = () => {
             }}
           />
         </Stack.Navigator>
-      </View>
-      <View style={tw`h-1/3`}>
-        <Map />
       </View>
     </SafeAreaView>
   );
