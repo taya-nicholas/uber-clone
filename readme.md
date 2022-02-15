@@ -20,11 +20,11 @@ Alternatively, clone the repo, install expo cli, and run expo start in the proje
 - You can install expo-cli with the command:
 - $ npm install -g expo-cli
 
-|                                                                                                             |                                                                                                         |                                                                                                    |
-| :---------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------: |
-| <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="/images/1-initial-home-screen.jpg"> blah |    <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="/images/2-select-origin.jpg">     | <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="/images/3-origin-selected.jpg"> |
-|    <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="/images/4-select-destination.jpg">    | <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="/images/5-destination-selected.jpg"> |   <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="/images/6-choose-car.jpg">    |
-|                                                                                                             |                                                                                                         |                                                                                                    |
+|                                                                                                             |                                                                                                             |                                                                                              |
+| :---------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------: |
+|   <img width="1604" alt="inital home screen" src="/images/1-initial-home-screen.jpg"> Initial home screen   |        <img width="1604" alt="selecting origin" src="/images/2-select-origin.jpg"> Selecting origin         | <img width="1604" alt="origin selected" src="/images/3-origin-selected.jpg"> Origin selected |
+| <img width="1604" alt="selecting destination" src="/images/4-select-destination.jpg"> Selecting destination | <img width="1604" alt="destination selected" src="/images/5-destination-selected.jpg"> Destination selected |      <img width="1604" alt="choosing car" src="/images/6-choose-car.jpg"> Choosing car       |
+|                                                                                                             |                                                                                                             |                                                                                              |
 
 # Example use
 
