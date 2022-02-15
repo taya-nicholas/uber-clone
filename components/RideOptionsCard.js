@@ -81,7 +81,8 @@ const RideOptionsCard = () => {
               <Text>{travelTimeInformation?.duration.text}</Text>
             </View>
             <Text style={tw`text-xl`}>
-              {new IntlPolyfill.NumberFormat("en-nz", {
+              $
+              {/* {new IntlPolyfill.NumberFormat("en-nz", {
                 style: "currency",
                 currency: "NZD",
               }).format(
@@ -89,7 +90,11 @@ const RideOptionsCard = () => {
                   SURGE_CHARGE_RATE *
                   multiplier) /
                   100
-              )}
+              )} */}
+              {(travelTimeInformation?.duration.value *
+                SURGE_CHARGE_RATE *
+                multiplier) /
+                100}
             </Text>
           </TouchableOpacity>
         )}
