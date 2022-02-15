@@ -20,21 +20,6 @@ Alternatively, clone the repo, install expo cli, and run expo start in the proje
 - You can install expo-cli with the command:
 - $ npm install -g expo-cli
 
-|                                                                                                             |                                                                                                             |                                                                                              |
-| :---------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------: |
-|   <img width="1604" alt="inital home screen" src="/images/1-initial-home-screen.jpg"> Initial home screen   |        <img width="1604" alt="selecting origin" src="/images/2-select-origin.jpg"> Selecting origin         | <img width="1604" alt="origin selected" src="/images/3-origin-selected.jpg"> Origin selected |
-| <img width="1604" alt="selecting destination" src="/images/4-select-destination.jpg"> Selecting destination | <img width="1604" alt="destination selected" src="/images/5-destination-selected.jpg"> Destination selected |      <img width="1604" alt="choosing car" src="/images/6-choose-car.jpg"> Choosing car       |
-|                                                                                                             |                                                                                                             |                                                                                              |
-
-# Example use
-
-![intial home screen](/images/1-initial-home-screen.jpg)
-![select origin](/images/2-select-origin.jpg)
-![origin selected](/images/3-origin-selected.jpg)
-![select destination](/images/4-select-destination.jpg)
-![destination selected](/images/5-destination-selected.jpg)
-![choose car](/images/6-choose-car.jpg)
-
 # What it does
 
 - Requires you to select a NZ location through google places autocomplete.
@@ -43,6 +28,14 @@ Alternatively, clone the repo, install expo cli, and run expo start in the proje
 - Requires a destination to be selected (through google places autocomplete).
 - Calculates shortest path between origin and destination - displays distance, path on map, and cost estimate for different car types.
 - Once a car is selected, it is highlighted, and the choose button becomes pressable.
+
+# Example use
+
+|                                                                                                             |                                                                                                             |                                                                                              |
+| :---------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------: |
+|   <img width="1604" alt="inital home screen" src="/images/1-initial-home-screen.jpg"> Initial home screen   |        <img width="1604" alt="selecting origin" src="/images/2-select-origin.jpg"> Selecting origin         | <img width="1604" alt="origin selected" src="/images/3-origin-selected.jpg"> Origin selected |
+| <img width="1604" alt="selecting destination" src="/images/4-select-destination.jpg"> Selecting destination | <img width="1604" alt="destination selected" src="/images/5-destination-selected.jpg"> Destination selected |      <img width="1604" alt="choosing car" src="/images/6-choose-car.jpg"> Choosing car       |
+|                                                                                                             |                                                                                                             |
 
 # What it doesn't do
 
@@ -55,10 +48,12 @@ Alternatively, clone the repo, install expo cli, and run expo start in the proje
 # Current problems
 
 1. When selecting destination, autocomplete dropdown is hidden by rides/eats buttons.
-   -- Possibel reason: The rides/eats buttons have higher priority, or are not included in the keyboard ignoring view.
+
+   -- Possible reason: The rides/eats buttons have higher priority, or are not included in the keyboard ignoring view.
    -- Possible solution: Use some sort of keyboard ignoring view for dropdown, or rides/eats buttons, or both.
    -- Alternatively, find a way to hide the map while typing.
 
 2. After selecting destination, the map is not automatically resized. However, it is resized if you return to previous page and tap the destination text.
+
    -- Possible reason: resizing happens with the map onLayout property. Somehow adding the destinaton doesn't trigger this.
    -- Possible solution: Either change the onLayout properity to something that does trigger, or find a way to resize without marker bounds.
