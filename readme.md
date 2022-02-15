@@ -20,11 +20,10 @@ Alternatively, clone the repo, install expo cli, and run expo start in the proje
 - You can install expo-cli with the command:
 - $ npm install -g expo-cli
 
-|                                                                                                             |                                                                                                         |                                                                                                         |
-| :---------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: |
-| <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="/images/1-initial-home-screen.jpg"> blah |    <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="/images/2-select-origin.jpg">     |   <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="/images/3-origin-selected.jpg">    |
-|    <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="/images/4-select-destination.jpg">    | <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="/images/5-destination-selected.jpg"> | <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="/images/5-destination-selected.jpg"> |
-|              <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="INSERT_HERE">               |            <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="INSERT_HERE">             |            <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="INSERT_HERE">             |
+|                                                                                                             |                                                                                                         |                                                                                                    |
+| :---------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------: | --- |
+| <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="/images/1-initial-home-screen.jpg"> blah |    <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="/images/2-select-origin.jpg">     | <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="/images/3-origin-selected.jpg"> |
+|    <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="/images/4-select-destination.jpg">    | <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="/images/5-destination-selected.jpg"> |   <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="/images/6-choose-car.jpg">    |     |
 
 # Example use
 
@@ -33,7 +32,7 @@ Alternatively, clone the repo, install expo cli, and run expo start in the proje
 ![origin selected](/images/3-origin-selected.jpg)
 ![select destination](/images/4-select-destination.jpg)
 ![destination selected](/images/5-destination-selected.jpg)
-![choose car](/images/5-destination-selected.jpg)
+![choose car](/images/6-choose-car.jpg)
 
 # What it does
 
