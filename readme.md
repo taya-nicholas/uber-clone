@@ -8,9 +8,12 @@ This is a proof of concept clone of Uber, written in React Native, and based on 
 - Tailwind: for styling components.
 - Redux: for state managament, in this case storing origin and destination locations.
 - Google APIS:
-  -- Google places autocomplete: gives a dropdown menu to select locations
-  -- Google maps: displays selected origin and destination as markers on a map.
-  -- Google distance matrix: allow distance and shorted path to be calculated between two points.
+
+  - Google places autocomplete: gives a dropdown menu to select locations
+
+  - Google maps: displays selected origin and destination as markers on a map.
+
+  - Google distance matrix: allow distance and shorted path to be calculated between two points.
 
 # How to run
 
