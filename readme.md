@@ -29,7 +29,7 @@ Alternatively, clone the repo, install expo cli, and run expo start in the proje
 - Calculates shortest path between origin and destination - displays distance, path on map, and cost estimate for different car types.
 - Once a car is selected, it is highlighted, and the choose button becomes pressable.
 
-# Example use
+## Example use
 
 |                                                                                                             |                                                                                                             |                                                                                              |
 | :---------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------: |
@@ -38,6 +38,8 @@ Alternatively, clone the repo, install expo cli, and run expo start in the proje
 |                                                                                                             |                                                                                                             |
 
 # What it doesn't do
+
+Generally speaking, front end elements and API connections are working, but it is not connected to any backend.
 
 - The order food page is empty.
 - Home and work shortcuts currently don't affect the location redux store. There is also no way add or remove them (they are essentially just UI elements.).
