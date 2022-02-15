@@ -54,7 +54,7 @@ const RideOptionsCard = () => {
           <Icon name="chevron-left" type="fontawesome" />
         </TouchableOpacity>
         <Text style={tw`text-center py-5 text-xl`}>
-          Select a ride - {travelTimeInformation?.distance.text}
+          Select a ride - {travelTimeInformation?.distance?.text}
         </Text>
       </View>
 
@@ -78,11 +78,13 @@ const RideOptionsCard = () => {
             />
             <View style={tw`-ml-6`}>
               <Text style={tw`text-xl font-semibold`}>{title}</Text>
-              <Text>{travelTimeInformation?.duration.text}</Text>
+              <Text>{travelTimeInformation?.duration?.text}</Text>
             </View>
             <Text style={tw`text-xl`}>
               $
-              {/* {new IntlPolyfill.NumberFormat("en-nz", {
+              {
+                // Note: Intl is better solution, but it takes some time to get it working.
+                /* {new IntlPolyfill.NumberFormat("en-nz", {
                 style: "currency",
                 currency: "NZD",
               }).format(
@@ -90,7 +92,8 @@ const RideOptionsCard = () => {
                   SURGE_CHARGE_RATE *
                   multiplier) /
                   100
-              )} */}
+              )} */
+              }
               {(travelTimeInformation?.duration.value *
                 SURGE_CHARGE_RATE *
                 multiplier) /

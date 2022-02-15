@@ -41,7 +41,6 @@ const Map = () => {
       mapType="standard"
       onLayout={() => {
         if (!origin || !destination) return;
-        console.log("Map ready - new");
         let markers = [];
         let placeMarker1 = {
           latitude: origin.location.lat,
@@ -57,14 +56,10 @@ const Map = () => {
         };
         markers.push(placeMarker1);
         markers.push(placeMarker2);
-        console.log(markers);
         mapRef.current.fitToCoordinates(markers, {
           edgePadding: { top: 50, right: 10, bottom: 10, left: 10 },
           animated: true,
         });
-        // mapRef.current.fitToSuppliedMarkers(["origin", "destination"], {
-        //   edgePadding: { top: 50, right: 50, bottom: 50, left: 50 },
-        // });
       }}
       initialRegion={{
         latitude: origin.location.lat,
