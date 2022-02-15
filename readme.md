@@ -49,11 +49,14 @@ Alternatively, clone the repo, install expo cli, and run expo start in the proje
 
 1. When selecting destination, autocomplete dropdown is hidden by rides/eats buttons.
 
-   -- Possible reason: The rides/eats buttons have higher priority, or are not included in the keyboard ignoring view.
-   -- Possible solution: Use some sort of keyboard ignoring view for dropdown, or rides/eats buttons, or both.
-   -- Alternatively, find a way to hide the map while typing.
+   - Possible reason: The rides/eats buttons have higher priority, or are not included in the keyboard ignoring view.
+
+   - Possible solution: Use some sort of keyboard ignoring view for dropdown, or rides/eats buttons, or both.
+
+   - Alternatively, find a way to hide the map while typing.
 
 2. After selecting destination, the map is not automatically resized. However, it is resized if you return to previous page and tap the destination text.
 
-   -- Possible reason: resizing happens with the map onLayout property. Somehow adding the destinaton doesn't trigger this.
-   -- Possible solution: Either change the onLayout properity to something that does trigger, or find a way to resize without marker bounds.
+   - Possible reason: resizing happens with the map onLayout property. Somehow adding the destinaton doesn't trigger this.
+
+   - Possible solution: Either change the onLayout properity to something that does trigger, or find a way to resize without marker bounds.
